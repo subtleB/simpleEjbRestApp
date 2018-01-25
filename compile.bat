@@ -1,0 +1,1 @@
+mvn clean install && xcopy /Y "D:\backup\interviewApp\interviewApp\target\*.war" "C:\sputnik\jboss-eap-6.4.0\jboss-eap-6.4\standalone\deployments"

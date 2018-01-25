@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sputnik interview app</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="leftArea">
+<label>Shop</label>
+<ul id="clothesShopList"></ul>
+</div>
+
+<form id="clothesForm">
+	<div class="mainArea">
+	
+		<label>Id:</label>
+		<input id="clothesId" name="id" type="text" disabled />
+		
+		<label>Destination:</label>
+		<select id="dest" name="dest" required>
+		  <option selected value="shop">Shop</option>
+		  <option value="warehouse">Warehouse</option>
+		</select>
+	
+		<label>Size:</label>
+		<select id="size" name="size" required>
+		  <option selected value="S42">42</option>
+		  <option value="S43">43</option>
+		  <option value="S44">44</option>
+		  <option value="S45">45</option>
+		  <option value="S46">46</option>
+		  <option value="S47">47</option>
+		  <option value="S48">48</option>
+		  <option value="S49">49</option>
+		  <option value="S50">50</option>
+		  <option value="S51">51</option>
+		  <option value="S52">52</option>
+		  <option value="S53">53</option>
+		  <option value="S54">54</option>
+		</select>
+		
+		<label>Color:</label>
+		<select id="color" name="color" required>
+		  <option selected value="WHITE">White</option>
+		  <option value="BLUE">Blue</option>
+		  <option value="RED">Red</option>
+		  <option value="GREEN">Green</option>
+		  <option value="BLACK">Black</option>
+		</select>
+		
+		<label>Type:</label>
+		<select id="type" name="type" required>
+		  <option selected value="DRESS">Dress</option>
+		  <option value="TROUSERS">Trousers</option>
+		  <option value="SKIRT">Skirt</option>
+		  <option value="JECKET">Jacket</option>
+		  <option value="SHIRT">Shirt</option>
+		</select>
+		
+		<label>Value:</label>
+		<input type="number" id="value" name="value" required/>
+
+		<label>Description:</label>
+		<input type="text" id="description" name="description"/>
+
+		<button id="btnSave">Save</button>
+		<button id="btnDelete">Delete</button>
+		<button id="btnClear">Clear</button>
+	</div>
+</form>
+
+<div class="rightArea">
+<label>Warehouse</label>
+<ul id="clothesWarehouseList"></ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

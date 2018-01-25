@@ -1,0 +1,79 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.header {
+	padding-top: 5px;
+}
+
+.leftArea {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	bottom: 20px;
+	width: 260px;
+	border:solid 1px #CCCCCC;
+}
+
+.leftArea label, .rightArea label {
+	text-align : center;
+	border-bottom:solid 1px #CCCCCC;
+}
+
+.mainArea {
+	position: absolute;
+	top: 10px;
+	bottom: 20px;
+	left:300px;
+	width:300px;
+}
+
+.rightArea {
+	position: absolute;
+	top: 10px;
+	bottom: 20px;
+	left:650px;
+	width:270px;
+	border:solid 1px #CCCCCC;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+li a { 
+	text-decoration:none;
+	display: block;
+	color: #000000;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 8px;
+}
+
+li a:hover {
+	background-color: #e3e3e3;
+    color: #000;
+}
+
+input {
+  border:1px solid #ccc;
+  min-height:30px;
+  outline: none;
+}
+
+.mainArea input,  .mainArea select{
+  margin-bottom:15px;
+  margin-top:5px;
+  width:280px;
+}
+
+label {
+	display:block;
+}
+
+button {
+	padding:6px;
+}
+
